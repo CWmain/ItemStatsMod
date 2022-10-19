@@ -76,6 +76,7 @@ namespace ItemStats.StatModification
                 return stringBuilder.ToString();
             };
 
+        //Affected Items, the number represents the index of the stat to be modified for that item
         public override Dictionary<ItemIndex, IEnumerable<int>> AffectedItems =>
             new Dictionary<ItemIndex, IEnumerable<int>>
             {
